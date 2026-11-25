@@ -346,7 +346,7 @@ function Hero() {
 
       <div className="relative mx-auto max-w-5xl">
         <div className="mx-auto max-w-3xl text-center">
-          <Badge>Claude Code Plugin</Badge>
+          <Badge>Claude Code Plugin · v1.2</Badge>
           <h1 className="mt-6 text-4xl font-bold leading-tight tracking-tight text-foreground md:text-6xl md:leading-[1.1]">
             Turn scattered context into{" "}
             <span className="text-accent">actionable design</span>
@@ -616,6 +616,7 @@ function Tiers() {
         "9 artifact templates",
         "Full source citations",
         "Works with markdown notes",
+        "Finds your meetings with or without an MCP",
       ],
       requirements: "Any meeting source + Claude Code",
       color: "accent" as const,
@@ -629,7 +630,8 @@ function Tiers() {
         "Everything in Core",
         "Design Decision Records",
         "Backlog sync with task tracker",
-        "/scan for new design items",
+        "/scan reads relevant meetings in full",
+        "Chat scan covers DMs and threads",
         "Priority scoring framework",
       ],
       requirements: "+ Jira, Linear, or GitHub Issues",
@@ -645,6 +647,7 @@ function Tiers() {
         "Daily design briefings at 8 AM",
         "Heartbeat: auto-scan on new meetings",
         "Mid-day task delta detection",
+        "Parallel agent team, right model per role",
         "Desktop notifications",
       ],
       requirements: "+ Scheduler (launchd / systemd / cron)",
