@@ -2,20 +2,20 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "design-action — Evidence-grounded design synthesis",
+  title: "design-action — Context-aware design execution",
   description:
-    "Stop losing design decisions between meetings. design-action synthesizes evidence across your streams, stakeholders, and tools — with full source citations.",
+    "Turn scattered design context from meetings, tasks, chats and docs into actual work done for you.",
   openGraph: {
-    title: "design-action — The design evidence compiler",
+    title: "design-action — Context-aware design execution",
     description:
-      "Turn scattered design evidence from meetings, tasks, chat, and docs into grounded artifacts with citations.",
+      "Turn scattered design context from meetings, tasks, chats and docs into actual work done for you.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "design-action — Evidence-grounded design synthesis",
+    title: "design-action — Context-aware design execution",
     description:
-      "Turn scattered design evidence into grounded artifacts with citations.",
+      "Turn scattered design context from meetings, tasks, chats and docs into actual work done for you.",
   },
 };
 
